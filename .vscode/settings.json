@@ -1,0 +1,7 @@
+{
+   // 设置 GO 能够正确识别扩展为 WebAssembly 环境
+  "go.toolsEnvVars": {
+    "GOOS": "js",
+    "GOARCH": "wasm"
+  }
+}
